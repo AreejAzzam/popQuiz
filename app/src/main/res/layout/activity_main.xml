@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.educationalapp1.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#d6cfaf"
+            android:orientation="vertical"
+            android:paddingLeft="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Get Ready!"
+                android:textColor="#67506f"
+                android:textSize="24dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:text="What is the Capital of Switzerland?"
+                    android:textColor="#836285"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/ans1_ImageView"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/mark"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+
+            <RadioGroup
+                android:id="@+id/Radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/canberra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="Canberra"
+                    android:textColor="#836285"
+                    android:textSize="16dp"
+
+                    />
+
+                <RadioButton
+                    android:id="@+id/bern"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="Bern"
+                    android:textColor="#836285"
+                    android:textSize="16dp"
+
+                    />
+
+                <RadioButton
+                    android:id="@+id/phnom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="	Phnom Penh"
+                    android:textColor="#836285"
+                    android:textSize="16dp"
+
+                    />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" Wonders of the Ancient World are ?"
+                    android:textColor="#836285"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/ans2_ImageView"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/mark"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/a1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Temple of Artemis at Ephesus."
+                    android:textColor="#836285"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/a2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Stonehenge, England."
+                    android:textColor="#836285"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/a3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="the Hanging Gardens of Babylon."
+                    android:textColor="#836285"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/a4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hagia Sophia, Istanbul, Turkey"
+                    android:textColor="#836285"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/a5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Statue of Zeus at Olympia. "
+                    android:textColor="#836285"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:text="What is the Currency of Japan ?"
+                    android:textColor="#836285"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/ans3_ImageView"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/mark"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/Radio2"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <RadioButton
+                    android:id="@+id/yen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Yen"
+                    android:textColor="#836285"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/renminbi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Renminbi"
+                    android:textColor="#836285"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/franc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="franc"
+                    android:textColor="#836285"
+                    android:textSize="16dp" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:text="who is the President of germany ?"
+                    android:textColor="#836285"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/ans4_ImageView"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/mark"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/Radio3"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <RadioButton
+                    android:id="@+id/sigmar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="Sigmar Gabriel"
+                    android:textColor="#836285"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/merkel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:text="Angela Merkel"
+                    android:textColor="#836285"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/frank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:text="Frank-Walter "
+                    android:textColor="#836285"
+                    android:textSize="16dp" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" How many Continents in The World ?"
+                    android:textColor="#836285"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/ans5_ImageView"
+                    android:layout_width="17dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/mark"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/NumberOfContinents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:background="@android:color/transparent"
+                android:hint="your answer"
+                android:inputType="number" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:background="#ea9e96"
+                android:onClick="submit"
+                android:text="submit"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#ea9e96"
+                android:onClick="reset"
+                android:text="reset" />
+</LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
